@@ -82,7 +82,7 @@ h1 {
 .telegram { background-color: #24A1DE; }
 .vk { background-color: #4C75A3; }
 .youtube { background-color: #FF0000; }
-
+.tiktok { background-color: #ff0050; } /* Или #ff0050 для ярко-розового */
 footer {
     margin-top: 40px;
     font-size: 0.7rem;
