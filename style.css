@@ -18,13 +18,21 @@ body {
 }
 
 /* Фото с эффектом старого веба */
+/* --- Найди и замени этот блок --- */
+
 .main-photo {
     width: 100%;
-    max-width: 250px;
-    filter: grayscale(1); /* ЧБ для стиля */
-    border: 4px solid #000;
-    margin-bottom: 15px;
+    max-width: 400px; /* Можешь сделать еще чуть больше, качество не потеряется */
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
 }
+
+/* Эффект при наведении теперь не нужен, так как фото и так крупное и без рамки.
+   Этот блок можно просто удалить, если он есть: */
+/* .main-photo:hover { ... } */
+
+/* -------------------------------- */
 
 .main-photo:hover {
     filter: none; /* Оживает при наведении */
@@ -88,4 +96,27 @@ footer {
     font-size: 0.7rem;
     border-top: 2px solid #000;
     padding-top: 10px;
+}
+/* Добавь это в конец своего style.css */
+
+.contact {
+    margin: 30px 0;
+    border: 2px dashed #000; /* Пунктирная рамка в стиле олдскула */
+    padding: 10px;
+}
+
+.email-text {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.email-text a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.email-text a:hover {
+    background: #000;
+    color: #fff;
 }
